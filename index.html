@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+    <title>Sports App</title>
+    <!-- Path to Framework7 Library CSS-->
+	<link rel="stylesheet" href="css/framework7.ios.min.css">	
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+		<h1>Settings</h1>
+        <p style="color:#326cff;"><br>Add Acount<br>Change Back Colour<br>Change Font Colour<br>Log Out</p>
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p></p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <!-- Navbar inner for Index page-->
+          <div data-page="index" class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Sports News</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+          <!-- Navbar inner for Football page-->
+          <div data-page="Football" class="navbar-inner cached">
+            <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+            <div class="center sliding">Football</div>
+          </div>
+          <!-- Navbar inner for Tennis page-->
+          <div data-page="Tennis" class="navbar-inner cached">
+            <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+            <div class="center sliding">Tennis</div>
+          </div>
+          <!-- Navbar inner for Cricket page-->
+          <div data-page="Cricket" class="navbar-inner cached">
+            <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+            <div class="center sliding">Cricket</div>
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Index Page-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+              <div class="content-block-title">How To Use</div>
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <p>Click any of the buttons below to navigate to a sport that you want to read about, for news and other sport related stories.</p>
+                </div>
+              </div>
+              <div class="content-block-title">Sports</div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="#Football" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">Football</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#Tennis" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Tennis</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#Cricket" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Cricket</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <!-- Football Page-->
+          <div data-page="Football" class="page cached">
+            <div class="page-content">
+              <div class="content-block">
+			    <h1>Manchester City FC news: Joe Hart not looking ‘too far ahead’ despite enjoying Torino spell.</h1>
+				<img src="Images/Football1.jpg" width= 100%;>
+                <p>Considering Bravo has struggled since his move to the Etihad, there has been a discussion as to whether Hart will return to City ahead of next season, but the 29-year-old insists he cannot look too far into the future at this moment in time.
+				"I'm just enjoying my time in Torino," the keeper said when asked about the future. "I'm a Torino player for this season. I've got two years on my contract after this season.
+				"It's difficult to look too far ahead of that and, without passing the buck, it's not really my responsibility to think about.
+				"The City fans have always been fantastic to me and showed me a lot of support and it's a club I will always hold dear to my heart."
+				Hart is learning a lot on and off the field right now, with Italian lessons well under way in a country where training is far more tactical.
+				Few could have foreseen the England goalkeeper's career panning out as it has, but he is enjoying life with Torino after finding himself out of favour at City.
+				"I enjoy football, either way," he said. "Like I said before, it was a situation, but it was what it was.
+				"I was never pushed away or training on my own. I just wasn't part of the team.
+				"You have to be able to deal with that and I was told I was needed to find somewhere else to play, got the opportunity and here I am.
+				"It was a different situation, but nothing that was too far out of my comfort zone. I'm really happy that I've still been able to come back and play with the England team, and enjoy that as well."</p>
+				<h1>Manchester United captain Wayne Rooney withdraws from the England squad with knee injury</h1>
+				<img src="Images/Football2.jpg" width= 100%;>
+				<p>Interim manager Gareth Southgate had already said the Manchester United forward would sit out Tuesday's friendly with Spain whether he was injured or not.
+				The 31-year-old was dropped by Southgate for last month's World Cup qualifying draw with Slovenia but captained the side for the 3-0 win over Scotland on Friday evening.
+				An FA statement read: "The striker sat out this morning's session at Tottenham Hotspur's training ground as a precaution due to a minor knee injury.
+				<br><br>"However, with Gareth Southgate already set to rest his captain for the visit of Spain to Wembley Stadium tomorrow night, Rooney has been allowed to return to his club for further assessment."
+				Rooney was one of two players to miss training on Monday, along with left-back Ryan Bertrand.
+				Southgate's decision to start without the national captain and record goalscorer would hardly have been unprecedented in a friendly match but his insistence that he is taking decisions he deems to be in England's long-term interests, rather than his own prospects of being named permanent manager, cannot be coincidental.
+				Whether he no longer sees Rooney as an essential first-team pick, or simply wants the team to get used to playing without a man who has already telegraphed his retirement in 2018, is unclear.
+				</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tennis Page-->
+		  <div data-page="Tennis" class="page cached">
+            <div class="page-content">
+				<div class="content-block">
+					<h1>'You guys are unbelievable': Novak Djokovic criticizes media in London</h1>
+					<img src="Images/Tennis1.jpg" width= 100%;>
+					<p>Novak Djokovic reacted sharply to questions about a ball-smashing incident during his opening match at the ATP Tour Finals, saying he received too much scrutiny.
+					Playing Dominic Thiem, the Serb dropped the first set of the match in a tiebreaker and smashed a ball that went towards the stands. He came back to win the next two sets for a 6-7 (10), 6-0, 6-2 victory.
+					"You guys are unbelievable," he responded when asked if he was concerned about a penalty for such incidents. "You're always picking these kinds of things. I'm the only player that shows his frustration on the court? That's what you are saying?... It's not an issue for me. It's not the first time I did it."</p>
+					<h1>Amelie Mauresmo steps down as France's Fed Cup Captain</h1>
+					<img src="Images/Tennis2.jpg" width= 100%;>
+					<p>PARIS (AP) — Amelie Mauresmo has stepped down as France's Fed Cup captain as she is expecting her second child.
+					Former top-ranked Mauresmo made the unexpected announcement on Monday — a day after France lost 3-2 in the Fed Cup final to defending champion Czech Republic.
+					Mauresmo, who took over as Fed Cup captain in 2013 and also coached top-ranked Andy Murray, says her pregnancy won't allow her to captain France during the 2017 campaign. Her baby is due in April.
+					The two-time Grand Slam champion said she did not let players know about her decision before Monday because she wanted "the girls to be 100 percent focused on the final."
+					Under Mauresmo, France won six out of nine Fed Cup ties.
+					Mauresmo ended her working relationship with Murray in May.</p>
+				</div>
+            </div>
+          </div>
+          <!-- Cricket-->
+		  <div data-page="Cricket" class="page cached">
+            <div class="page-content">
+				<div class="content-block">
+					<h1>Give third umpire power to intervene even without referral - Tendulkar</h1>
+					<img src="Images/Cricket1.jpg" width= 100%;>
+					<p>Sachin Tendulkar has called for greater authority to be given to the third umpire to intervene and reverse incorrect decisions even when the player has not opted to refer it under the Decision Review System. He said the idea of the DRS was to ensure correct decisions were made consistently, and suggested the three umpires work together towards that end.
+					"All three umpires should work together as a team and if the third umpire spots something, he should be in a position to tell the on-field umpire, 'I feel this is not out' or vice versa," Tendulkar was quoted as saying by Mid Day. "You can overturn that decision. It's all about getting correct decisions, so you must go all the way to get it right."
+					India had mixed fortunes with DRS in the first Test in Rajkot with Cheteshwar Pujara's dismissal in the second innings coming under the spotlight. Pujara was adjudged lbw on 18, but he didn't opt to review the decision even as replays revealed Adil Rashid's delivery had pitched outside leg stump before hitting the batsman's leg. M Vijay, at the other end, also seemed to concur with the umpire's decision, and didn't press Pujara to go for a review.
+					Incidentally, Pujara was initially given out lbw for 86 in the first innings when Zafar Ansari struck him on the back leg. Pujara consulted with Vijay, who was the non-striker on that occasion as well, and referred the decision to Rod Tucker, the third umpire. Tucker overturned the decision after replays showed the ball to be going over the stumps.
+					After the second innings, Kohli said the non-striker must stay closer to the stumps and remain more pro-active in helping his partner with DRS referrals, but Tendulkar felt the onus was on the umpires to make the right call.
+					"In spite of Pujara being not out and DRS being there, he still ended up losing his wicket. Should the third umpire have the authority to intervene and correct the decision? I feel, yes," he said. "See, the batsman at the other end is thinking about his own batting. He is planning how he is going to tackle the bowler. That period [at the non-striker's end] becomes a breather for the player. He takes some time off and thinks about what he wants to do and in that fraction of a second, he can miss something."
+					India had played in the first series with umpire reviews, against Sri Lanka in 2008, but the ongoing series against England is their first bilateral contest since then with all the components of the DRS - including ball-tracking technology - in place. Tendulkar called the BCCI's decision to trial the system a "positive step", with the technology used in the DRS having improved. However, he stressed on the need to ensure uniformity in the technology used around the world.
+					"There were a few things that we did not like. We were not convinced about the technology and as I said, over a period of time, things changed," Tendulkar said, explaining India's initial resistance to the DRS. "The technology is better and there has been more and more research, more consistency in what they are trying to achieve.
+					"We did not agree to certain things because one part of the world was using snickometer. In other parts, there was hotspot. There was a match… I think a Zimbabwe versus Bangladesh Test where no one knew what was being used. The idea is to standardise things for all parts of the world. Laws in cricket must be standardised no matter which part of the world you play in."</p>
+				</div>
+            </div>
+          </div>
+		  
+		  
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
